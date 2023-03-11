@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Upgradable Implementation
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic UUPS(Universal upgradeable proxies) Hardhat project.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npm run deploy
+npm run upgrade
+npx hardhat verify "Contract-Address" --network mumbai
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
