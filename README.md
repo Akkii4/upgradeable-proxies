@@ -1,4 +1,4 @@
-# Upgradable Implementation
+# Upgradable Proxy
 
 This project demonstrates a basic UUPS(Universal upgradeable proxies) Hardhat project.
 
